@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hospital Management</title>
+        <link rel="stylesheet" href="../css/contact.css">
+        <link rel="shortcut icon" href="../images/icons/medicine.png" type="image/png">
+
+    </head>
+    <body>
+        <main>
+
+            <nav>
+                <img src="../images/icons/aid.png" alt="ABC Hospital" href="index.html">
+                <h2>ABC Hospital</h2>
+                <div id="nav-links">
+
+                    <input type="search" id="nav-search" placeholder="Search">
+                    <a href="#">Home</a>
+                    <a href="appointment.html">Appointments</a>
+                    <a href="report.html">Reports</a>
+                    <a href="history.html">History</a>
+                    <a class="nav-logout_btn" class="button" href="#modalbox">
+                        <strong>LOGOUT</strong>
+                    </a>
+                </div>
+            </nav>
+
+
+            <div id="modalbox" class="modal">
+                <div class="modalcontent">
+                    <h3>ARE YOU SURE WANT TO LOGOUT?</h3>
+                    <button href="#" class="button" onclick="logout()">
+                        <strong>YES</strong>
+                    </button>
+                    <a href="#" class="modalclose">&times;</a>
+                </div>
+            </div>
+
+            <section id="main">
+
+                <div id="signup" class="container">
+
+                    <div id="div-tab">
+                        <div class="tabs" id="doc_tab">Profile</div>
+                        <div class="tabs" id="doc_app">Appointment</div>
+                        <div class="tabs" id="hos_tab">Blood Bank</div>
+                        <div class="tabs" id="dep_tab">Settings</div>
+                    </div>
+                    <div id="content">
+
+                        <div
+                            id="cust_info">
+
+                            <!-- new format for populating info -->
+
+                            <p>
+                                <b>Name :
+                                </b>
+                                yourname
+                                <br>
+                                <b>Mobile No :
+                                </b>
+                                mob
+                                <br>
+                                <b>Email ID :
+                                </b>
+                                email
+                                <br>
+                                <b>DOB :
+                                </b>
+                                dob
+                                <br>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <footer>
+                &#xa9; ABC Hospital 1999-2021 by Refsnes Data. All Rights Reserved.
+            </footer>
+
+        </main>
+        <script src="../js/login.js"></script>
+        <script src="../js/dummy.js"></script>
+    </body>
+</html>

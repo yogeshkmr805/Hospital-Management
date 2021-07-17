@@ -1,0 +1,64 @@
+{    
+        "data" : [
+            {
+                "pic" : "../images/docs/doc1.jpg",
+                "name" : "Dr Mike Wendal",
+                "Specialist" : "Neurosurgeon",
+                "experience" : "7 yrs"
+            },
+            {
+                "pic" : "../images/docs/doc2.jpg",
+                "name" : "Dr Harry Osborn",
+                "Specialist" : "Psychologist",
+                "experience" : "15 yrs"
+            },
+            {
+                "pic" : "../images/docs/doc3.jpg",
+                "name" : "Dr Abdul Kafir",
+                "Specialist" : "Orthodontist",
+                "experience" : "8 yrs"
+            },
+            {
+                "pic" : "../images/docs/doc4.jpg",
+                "name" : "Dr Kulvinder Kaur",
+                "Specialist" : "Ophthalmologist",
+                "experience" : "7 yrs"
+            },
+            {
+                "pic" : "../images/docs/doc5.jpg",
+                "name" : "Dr Maria Alina",
+                "Specialist" : "Oncologist",
+                "experience" : "6 yrs"
+            },
+            {
+                "pic" : "../images/docs/doc6.jpg",
+                "name" : "Dr Stephanie Fleming",
+                "Specialist" : "Gynecologist",
+                "experience" : "12 yrs"
+            },
+            {
+                "pic" : "../images/docs/doc7.jpg",
+                "name" : "Dr Uma Bharti",
+                "Specialist" : "Cardiologist",
+                "experience" : "6 yrs"
+            },
+            {
+                "pic" : "../images/docs/doc8.jpg",
+                "name" : "Dr Kevin Timber",
+                "Specialist" : "Dentist",
+                "experience" : "14 yrs"
+            },
+            {
+                "pic" : "../images/docs/doc9.jpg",
+                "name" : "Dr V K Iyer",
+                "Specialist" : "Plastic Surgeon",
+                "experience" : "9 yrs"
+            },
+            {
+                "pic" : "../images/docs/doc10.jpg",
+                "name" : "Dr Amarinder Kumar",
+                "Specialist" : "OPD Specialist",
+                "experience" : "14 yrs"
+            }
+    ]
+}

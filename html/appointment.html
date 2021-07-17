@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hospital Management</title>
+        <link rel="stylesheet" href="../css/contact.css">
+        <link rel="shortcut icon" href="../images/icons/medicine.png" type="image/png">
+
+    </head>
+    <body>
+        <main>
+
+            <nav>
+                <img src="../images/icons/aid.png" alt="ABC Hospital" href="index.html">
+                <h2>ABC Hospital</h2>
+                <div id="nav-links">
+
+                    <input type="search" id="nav-search" placeholder="Search">
+                    <a href="dummy.html">Home</a>
+                    <a href="appointment.html">Appointments</a>
+                    <a href="report.html">Reports</a>
+                    <a href="history.html">History</a>
+                    <a class="nav-logout_btn" class="button" href="#modalbox">
+                        <strong>LOGOUT</strong>
+                    </a>
+                </div>
+            </nav>
+
+
+            <div id="modalbox" class="modal">
+                <div class="modalcontent">
+                    <h3>ARE YOU SURE WANT TO LOGOUT?</h3>
+                    <button href="#" class="button" onclick="logout()">
+                        <strong>YES</strong>
+                    </button>
+                    <a href="#" class="modalclose">&times;</a>
+                </div>
+            </div>
+
+            <section id="main">
+
+                <div id="contact" class="container">
+                    <h2>APPOINTMENTS</h2>
+
+                    
+                    <!-- yaha se krna h -->
+                 
+                    <select name="location" id="appoint_loc" class="inpt">
+                        <option value="" selected>&nbsp;&nbsp;&nbsp;&nbsp;====SELECT LOCATION====</option>
+                        <option value="">Safdarjung West, Delhi</option>
+                        <option value="">Ratnapuri, Mumbai</option>
+                        <option value="">Kalinagari, Kolkata</option>
+                        <option value="">Electronic City, Bangalore</option>
+                        <option value="">Venkat Road, Chennai</option>
+                        <option value="">Triloknagar, Noida</option>
+                        <option value="">ChandiDevi, Chandigarh</option>
+                    </select>
+
+                    
+                        <select name="location" id="appoint_dep" class="inpt">
+                            <option value="" selected>&nbsp;&nbsp;===SELECT DEPARTMENT===</option>
+                            <option value="">Outpatient department (OPD)</option>
+                            <option value="">Opthamalogist</option>
+                            <option value="">Dental</option>
+                            <option value="">Cardiology</option>
+                            <option value="">Gastroenterology</option>
+                            <option value="">Gynaecology</option>
+                            <option value="">Haematology</option>
+                            <option value="">Neurology</option>
+                            <option value="">Oncology</option>
+                            <option value="">Psychology</option>
+                            <option value="">Physiotherapy</option>
+                            <option value="">Microbiology</option>
+                            <option value="">Orthopedics</option>
+                            <option value="">Orthodontal</option>
+                            <option value="">Plastic Surgery</option>
+                        </select>
+
+                        <input type="date" id="appoint_time" class="inpt">
+                    
+                        <select name="location" id="appoint_date" class="inpt">
+                            <option value="" selected>&nbsp;&nbsp;&nbsp;====SELECT TIME SLOT====</option>
+                            <option value="">9:00 AM - 11:00 AM</option>
+                            <option value="">12:00 PM - 2:00 PM</option>
+                            <option value="">3:00 PM - 5:00 PM</option>
+                        </select>
+                            
+
+                   
+
+                    
+                    <!-- <textarea name="desc" id="appoint_prob" cols="20" rows="5" placeholder="Describe your Problem"></textarea> -->
+
+                    <button class="button" id="appointment_btn" onclick="appoint()">Create Appointment</button>
+
+                </div>
+            </section>
+
+            <footer>
+                &#xa9; ABC Hospital 1999-2021 by Refsnes Data. All Rights Reserved.
+            </footer>
+
+        </main>
+        <script src="../js/login.js"></script>
+    </body>
+</html>

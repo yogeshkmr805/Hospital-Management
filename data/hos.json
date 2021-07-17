@@ -1,0 +1,54 @@
+{    
+    "data" : [
+        {
+            "pic" : "../images/hos/delhi.jpg",
+            "name" : "ABC Super Specialist Hospital",
+            "add" : "Safdarjung West, Delhi 110029",
+            "contact" : "(011-)256789/345678",
+            "email" : "delhiwing@abc.com"
+        },
+        {
+            "pic" : "../images/hos/mumbai.png",
+            "name" : "ABC Emergency Hospital",
+            "add" : "Ratnapuri, Mumbai 330029",
+            "contact" : "(033-)256789/345678",
+            "email" : "mumbaiwing@abc.com"
+        },
+        {
+            "pic" : "../images/hos/kolkata.jpg",
+            "name" : "ABC Cardio Hospital",
+            "add" : "Kalinagari, Kolkata 220029",
+            "contact" : "(022-)256789/345678",
+            "email" : "kolkatawing@abc.com"
+        },
+        {
+            "pic" : "../images/hos/banglore.jpg",
+            "name" : "ABC Exigency Hospital",
+            "add" : "Electronic City, Bangalore 550029",
+            "contact" : "(055-)256789/345678",
+            "email" : "bangalorewing@abc.com"
+        },
+        {
+            "pic" : "../images/hos/chennai.jpg",
+            "name" : "ABC Facilitation Hospital",
+            "add" : "Venkat Road, Chennai 440029",
+            "contact" : "(044-)256789/345678",
+            "email" : "chennaiwing@abc.com"
+        },
+        {
+            "pic" : "../images/hos/noida.jpg",
+            "name" : "ABC Raman Hospital",
+            "add" : "Triloknagar, Noida 253675",
+            "contact" : "(025-)256789/345678",
+            "email" : "noidawing@abc.com"
+        },
+        {
+            "pic" : "../images/hos/chandigarh.jpg",
+            "name" : "New ABC Hospital",
+            "add" : "ChandiDevi, Chandigarh 450029",
+            "contact" : "(045-)256789/345678",
+            "email" : "chandigarhwing@abc.com"
+        }
+        
+]
+}

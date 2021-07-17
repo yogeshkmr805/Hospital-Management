@@ -1,0 +1,64 @@
+{    
+    "data" : [
+        {
+            "dep" : "Outpatient department (OPD)",
+            "name" : "Dr Amarinder Kumar"   
+        },
+        {
+            "dep" : "Opthamalogist",
+            "name" : "Dr Kulvinder Kaur"  
+        },
+        {
+            "dep" : "Dental",
+            "name" : "Dr Kevin Timber"  
+        },
+        {
+            "dep" : "Cardiology",
+            "name" : "Dr Uma Bharti"  
+        },
+        {
+            "dep" : "Gastroenterology",
+            "name" : "Dr Mahipal Singh"  
+        },
+        {
+            "dep" : "Gynaecology",
+            "name" : "Dr Stephanie Fleming"  
+        },
+        {
+            "dep" : "Haematology",
+            "name" : "Dr Ravi Bishnoi"  
+        },
+        {
+            "dep" : "Neurology",
+            "name" : "Dr Mike Wendal"  
+        },
+        {
+            "dep" : "Oncology",
+            "name" : "Dr Maria Alina"  
+        },
+        {
+            "dep" : "Psychology",
+            "name" : "Dr Harry Osborn"  
+        },
+        {
+            "dep" : "Physiotherapy",
+            "name" : "Dr Edward Muller"  
+        },
+        {
+            "dep" : "Microbiology",
+            "name" : "Dr Richa Chadha"  
+        },
+        {
+            "dep" : "Orthopedics",
+            "name" : "Dr Latika Sharma"  
+        },
+        {
+            "dep" : "Orthodontal",
+            "name" : "Dr Abdul Kafir"  
+        },
+        {
+            "dep" : "Plastic Surgery",
+            "name" : "Dr V K Iyer"  
+        }  
+]
+}

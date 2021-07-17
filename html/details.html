@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hospital Management</title>
+        <link rel="stylesheet" href="../css/details.css">
+        <link rel="shortcut icon" href="../images/icons/medicine.png" type="image/png">
+    </head>
+    <body>
+        <main>
+
+            <nav>
+                <img src="../images/icons/aid.png" alt="ABC Hospital" href="#" srcset="">
+                <h2>ABC Hospital</h2>
+                <div id="nav-links">
+                    <input type="search" id="nav-search" placeholder="Search">
+                    <a href="index.html">Home</a>
+                    <a href="details.html">Details</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About</a>
+                    <a class="nav-login_btn" class="button" href="#modalbox">
+                        <strong>LOGIN</strong>
+                    </a>
+
+                </div>
+            </nav>
+
+            <div id="modalbox" class="modal">
+                <div class="modalcontent">
+                    <h2>LOGIN</h2>
+                    <label for="email"><input id="email" type="email" placeholder="Your Email Id"></label>
+                    <label for="pass"><input id="pass" type="password" placeholder="Your Password"></label>
+                    <button href="#" class="button" onclick="login()">
+                        <strong>SIGN IN</strong>
+                    </button>
+                    <div id="fail"></div>
+                    <a href="#" class="modalclose">&times;</a>
+                </div>
+            </div>
+
+            <section id="main">
+
+                <div id="signup" class="container">
+
+                    <div id="div-tab">
+                        <div class="tabs" id="doc_tab">Doctors Info</div>
+                        <div class="tabs" id="hos_tab">Hospitals Info</div>
+                        <div class="tabs" id="dep_tab">Departments</div>
+                    </div>
+                    <div id="content">
+                        <div id="doctors_info">
+                            
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                &#xa9; ABC Hospital 1999-2021 by Refsnes Data. All Rights Reserved.
+            </footer>
+
+        </main>
+        <script src="../js/login.js"></script>
+        <script src="../js/details.js"></script>
+    </body>
+</html>

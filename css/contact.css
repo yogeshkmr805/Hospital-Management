@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  main {
+      min-height: 100vh;
+      background: linear-gradient(to top right, rgb(238, 214, 205), rgb(230, 186, 180));
+  }
+  
+  
+  /* NAIGATION BAR */
+  /* --------------------------------- */
+  
+  nav {
+    background-color: rgb(68, 66, 66);
+    height: 46px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  nav img{
+      height: 36px;
+      width: 50px;
+      margin: 0px 16px;
+  }
+  
+  nav img:hover{
+      cursor: pointer;
+  }
+  
+  nav h2{
+      color: white;
+  }
+  
+  nav #nav-search{
+      height: 25px;
+      color: white;
+      background-color: rgb(68, 66, 66);
+      border: none;
+      border-bottom: 1px solid white;
+  }
+  
+  nav #nav-links{
+    position: fixed;
+    right: 8px;
+    margin-top: 5px;
+}
+  
+  nav #nav-links a {
+      color: white;
+      padding: 6px 16px;
+      border-radius: 20px;
+    text-decoration: none;
+    
+  }
+  
+  nav #nav-links a:hover {
+      color: black;
+      background-color: rgb(238, 214, 205);
+      transition: 0.30s all;
+  }
+  
+  .nav-login_btn {
+      display: inline-block;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(14, 103, 236);
+      color: white;
+      height: 28px;
+      width: 81px;
+      border-radius: 4px;
+      margin-bottom: 0px;
+  }
+  
+  .nav-login_btn:hover:hover{
+      background-color: rgba(11, 7, 253, 0.842);
+      color: white;
+  }
+
+  .nav-logout_btn{
+    background-color: rgb(236, 14, 14);
+  }
+  
+  
+  .modal{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      display: flex;
+      
+      align-items: center;
+      justify-content: center;
+      background: rgba(77,77,77,0.7);
+      transition: all 0.5s;
+      visibility: hidden;
+      opacity: 0;
+      z-index: 1;
+  }
+  
+  .modal:target{
+      visibility: visible;
+      opacity: 1;
+  }
+  
+  .modalcontent{
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(255, 255, 255);
+      align-items: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 31%;
+      padding: 25px;
+      border: none;
+      border-radius: 32px;
+      transform: translate(-50%,-50%);
+  }
+  
+  .modalcontent .modalclose{
+      position: absolute;
+      top: 10px;
+      right: 16px;
+      height: 100px;
+      font-weight: 600;
+      font-size: x-large;
+      text-decoration: none;
+      height: 28px;
+      padding-left: 9px;
+      width: 25px;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  /* ---------------------------------------------------------------------------------------------- */
+  /* MAIN BODY */
+  /* ---------------------------------------------------------------------------------------------- */
+  
+  
+  
+  
+  /* ---------------------------------------CONTACT FORM-------------------------------------- */
+  
+  #contact {
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      margin: 36px 500px;
+      padding: 15px;
+      border: none;
+      border-radius: 32px;
+      height: 585px;
+      width: 541px;
+      align-items: center;
+      /* justify-content: center; */
+      box-sizing: border-box;
+      overflow-y: auto;
+      box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
+  }
+  
+  
+  #contact h2{
+      margin: 18px;
+  }
+  
+  #name,#pass, #email{
+      margin: 18px;
+      border:1px solid black;
+      background-color: rgb(238, 214, 205);
+      border-radius: 30px;
+      text-align: center;
+      height: 40px;
+      width: 300px;
+      font-size: large;
+  }
+
+    #hospital_img{
+        height: 317px;
+        border-radius: 20px;
+    }
+
+    #contact p{
+        padding: 20px 39px;
+        text-align: justify;
+        font-family: revert;
+    }
+
+  #appoint_prob{
+    margin: 18px;
+    border:1px solid black;
+    background-color: rgb(238, 214, 205);
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px 15px;
+    width: 300px;
+    font-size: large;
+  }
+
+
+
+  .inpt, #desc{
+    margin: 18px;
+    border:1px solid black;
+    background-color: rgb(238, 214, 205);
+    border-radius: 30px;
+    text-align: center;
+    
+    height: 40px;
+    width: 300px;
+    font-size: large;
+}
+  
+  .button{
+      background-color: rgb(14, 103, 236);
+      color: white;
+      margin: 18px;
+      height: 40px;
+      width: 300px;
+      font-size: larger;
+      border:1px solid black;
+      text-align: center;
+      border-radius: 30px;
+  }
+  
+  .button:hover {
+      background-color: rgba(11, 7, 253, 0.842);
+      color: white;
+      cursor: pointer;
+  }
+
+
+
+  #signup{
+    background-color: rgb(255, 255, 255);
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
+    display: flex; 
+    margin: 36px 217px;
+    height: 585px;
+    position: relative;
+  }
+  
+  #signup #div-tab{
+    border-right: 1px solid ;
+    padding: 17px 18px;
+    width: 20%;
+    align-items: center;
+    background-color: rgb(68, 66, 66);
+    border-radius: 32px 0px 0px 32px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #signup .tabs{
+    padding: 15px 35px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin: 4px;
+  }
+
+  #signup .tabs:hover{
+    color: black;
+    background-color: rgb(238, 214, 205);
+    cursor: pointer;
+    transition: 0.30s all;
+  }
+
+
+
+  #doctors_info{
+      /* position: fixed; */
+      overflow-y: auto;
+      height: 585px;
+      right: 275px;
+  }
+
+  #doctors_info .table{
+    margin: 55px ;
+    height: 430px;
+    width: 580px;
+  }
+
+  #cust_info{
+    margin: 55px ;
+    height: 430px;
+    width: 680px;
+    padding: 36px 153px;
+  }
+
+  #cust_info .pro{
+    
+    font-size: large;
+    margin: 3px;
+    text-align: center;
+    padding: 10px 10px;
+    width: 373px;
+    border: 1px solid rgb(68, 66, 66);
+    border-radius: 40px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 5px 2px;
+  }
+
+  th{
+    width: 300px;
+    padding: 8px 14px;
+  }
+
+  td{
+    width: 300px;
+    padding: 8px 14px;
+    text-align: center;
+    font-size: larger;
+  }
+
+  .doc{
+      display: flex;
+  }
+  .doc_pic img{
+    height: 250px;
+    margin: 20px 50px;
+    border: 1px solid black;
+    border-radius: 145px;
+  }
+
+  .doc_info{
+    margin: 20px ;
+    font-size: x-large;
+    padding-top: 55px;
+  }
+
+  
+  
+  /* -----------------------------FOOTER---------------------------------- */
+  
+  footer{
+    position: fixed;
+    background-color: rgb(68, 66, 66);
+    color: white;
+    height: 46px;
+    width: 100vw;
+    padding: 13px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  
+  
+  
